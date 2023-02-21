@@ -46,13 +46,13 @@ import setuptools
 
 if __name__ == "__main__":
     setuptools.setup(
-        name="PyGithub",
-        use_scm_version=True,
+        name="PyGithub-Proxy-Dias-2000",
+        version='0.0.1',
         setup_requires=["setuptools_scm"],
         description="Use the full Github API v3",
-        author="Vincent Jacques",
-        author_email="vincent@vincent-jacques.net",
-        url="https://github.com/pygithub/pygithub",
+        author="Dias",
+        author_email="dias.nespayev@gmail.com",
+        url="https://github.com/Mercurial5/PyGithub",
         project_urls={
             "Documentation": "http://pygithub.readthedocs.io/en/latest/",
             "Source": "https://github.com/pygithub/pygithub",

@@ -39,6 +39,22 @@ for repo in g.get_user().get_repos():
     print(repo.name)
 ```
 
+## Using proxy
+```python
+from github import Github
+
+proxies = {
+    'http': 'some-proxy-here',
+    'https': 'some-proxy-there'
+}
+
+g = Github("access_token", proxies=proxies)
+
+# Then play with your Github objects using proxy:
+for repo in g.get_user().get_repos():
+    print(repo.name)
+```
+
 ## Documentation
 
 More information can be found on the [PyGitHub documentation site.](https://pygithub.readthedocs.io/en/latest/introduction.html)
