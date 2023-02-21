@@ -39,6 +39,7 @@ class Github:
         verify: bool = ...,
         retry: Optional[Union[int, Retry]] = ...,
         pool_size: Optional[int] = ...,
+        proxies: Optional[dict] = ...,
     ) -> None: ...
     @property
     def FIX_REPO_GET_GIT_REF(self) -> bool: ...
